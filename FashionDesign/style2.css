@@ -1,0 +1,665 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+*{
+    box-sizing: border-box;
+}
+body{
+
+box-sizing: border-box;
+display:block;
+position: relative;
+width: 100%;
+background: #F9F9F9;
+border: 1px solid #000000;
+}
+.Nav{
+    width: 100%;
+}
+#navbar{
+
+position: relative;
+width:100%;
+background: #FFFFFF;
+display:flex;
+
+}
+.Logo{
+    width:20%;
+}
+.logo{
+
+position:relative;
+width: 40%;
+left:10%;
+}
+.menu{
+    width: 75%;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.menu a{
+position: relative;
+top: 40%;
+text-decoration:none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 24px;
+
+color: #555555;
+
+transform: rotate(0.12deg);
+}
+.menu a:hover{
+    background-color: #555555;
+}
+@media  screen and (max-width: 900px) {
+    .menu{
+        flex-direction:column;
+    }
+    .menu a{
+        background-color: antiquewhite;
+        margin:10px 0;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+}
+
+.cartImg{
+height: 40px;
+}
+
+.Header{
+
+
+    position: relative;
+width: 100%;
+}
+
+
+.image-2 {
+
+width: 100%;
+}
+/* Treat Yourself simply because you deserve it */
+
+    
+.para1{
+position: absolute;
+bottom: 40%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 80px;
+line-height: 44px;
+text-align: center;
+width:100%;
+color: #FFFFFF;
+padding: 0 10%;
+
+}
+
+@media (max-width: 760px) {
+    .para1{
+        font-size:40px;
+        padding:0 10%;   
+    }
+}
+.Header a{
+    text-decoration: none;
+}
+.header2{
+width: 100%;
+}
+
+.Fashion_Sale1{
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 150%;
+/* identical to box height, or 52px */
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #F70C0C;
+
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.Fashion_Sale2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 150%;
+/* identical to box height, or 52px */
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #555555;
+}
+/* “Fashion is the armor to survive the reality of Everyday life” -BILL CUNNINGHAM */
+.Fashion_Sale3{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+/* or 36px */
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #000000;
+}
+.Button{
+    width:100%;
+}
+
+.Btn_box{
+position: relative;
+left: 47%;
+width: 202px;
+height: 62px;
+align-items: center;
+
+background: #555555;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Shop_Now{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 150%;
+/* identical to box height, or 38px */
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #F5F5F5;
+
+}
+.Line_3{
+
+position:relative;
+width: 90%;
+
+border: 1px solid #555555;
+}
+.Product_Catagories{
+width: 100%;
+
+}
+.Product_box{
+
+width: 100%;
+background: #F9F9F9;
+}
+
+.Product_CatagoriesText{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-align: center;
+color: #555555;
+
+}
+.catalist{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.catagory-box {
+    width: 25%;
+    padding: 100px 100px;
+}
+@media (max-width: 768px) {
+    .catagory-box {
+        width: 50%;
+        padding: 10px 20px;
+    } 
+}
+.catagory-box span {
+    display: block;
+}
+.catagory-box a {
+    text-decoration: none;
+}
+.catagory-box .image-wrapp {
+    position: relative;
+    overflow: hidden;
+    border-radius: 40%;
+}
+.catagory-box .image-wrapp img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    width: auto;
+}
+.catagory-box .image-wrapp::before {
+    content: "";
+    display: block;
+    padding-top: 120%;
+}
+.catagory-box .cat-title {
+    text-align: center;
+    font-size: 24px;
+    color: #888;
+    text-decoration: none;
+}
+
+
+
+.Line-2{
+width: 200%;
+border: 1px solid #555555;
+}
+.Products{
+    /* background-color: #888; */
+
+    padding: 5px;
+}
+.ProductHeading{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-align: center;
+color: #555555;
+}
+.ProductsBox{
+    /* background-color: #555555; */
+    
+    width:100%;
+}
+
+@media (min-width: 760px) {
+    .Productsrow{
+        /* display:flex; */
+        justify-content: center;
+        width: 70%;
+        padding: 10px 20px;
+    }
+}
+.Productsrow{
+    width:100%;
+    margin-bottom: 20px;
+    /* display:flex; */
+    justify-content: space-around;
+}
+.Product{
+    width:30%;
+    /* background-color: #F70C0C; */
+    margin:10px;
+}
+.ProductUpperBox{
+    position:relative;
+    width:100%;
+    box-shadow: 8px 4px 8px 2px #F4ECE7;
+    border-radius: 20px;
+    transform: rotate(0deg);
+    overflow:hidden;
+    /* background-color: #bacc19; */
+    
+}
+.ProductUpperBox .image-wrapper {
+
+    overflow: hidden;
+    border-radius: 40%;
+}
+.ProductUpperBox .image-wrapper img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    width: auto;
+}
+.ProductInfo{
+    position: absolute;
+    top:20px;
+    left:20px;
+}
+.ProductImg{
+    width:100%;
+    /* max-height: 100%; */
+    border-radius:5%;
+}
+.ProductLogo{
+    position:absolute;
+    bottom:10px;
+    right:20px;
+    width:30%;
+    height: 7%;
+    border-radius:10%;
+}
+.ProductLowerBox{
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+}
+.cartBox{
+
+    padding: 20px 20px;
+    margin: 20px 0px;
+    border-radius: 15%;
+    background-color: #8b8686;
+    font-size: 25px;
+
+}
+.Button_Discover{
+width: 100%;
+text-align: center;
+}
+
+.DiscoverBox{
+background: rgba(0, 0, 0, 0.25);
+filter: blur(1px);
+
+}
+/* Discover all */
+.DiscoverText{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+
+.Line-3{
+
+position: absolute;
+width: 1362px;
+height: 0px;
+left: 26px;
+top: 4200px;
+
+border: 1px solid #555555;
+
+
+}
+.Page_Product{
+position: relative;
+width: 100%;
+}
+
+/* Shop Our Page Product @BFair */
+.ProductText{
+
+text-align: center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+text-transform: uppercase;
+
+color: #555555;
+
+}
+
+.Slider_Component1{
+
+width:100%;
+height: 390px;
+background: #FFFFFF;
+
+}
+.sliderimg1-1{
+width: 20%;
+height: 381px;
+}
+.sliderimg2-1{
+width: 30%;
+height: 381px;
+}
+.sliderimg4-1{
+width: 19%;
+height: 381px;
+}
+
+.sliderimg5-1{
+width: 30%;
+height: 381px;
+}
+
+.Slider_Component2{
+width:100%;
+height: 376px;
+background: #FFFFFF;
+}
+
+.sliderimg11{
+width: 15%;
+height: 381px;
+}
+.sliderimg21{
+width:35%;
+height: 381px;
+}
+.sliderimg41{
+width:27%;
+height: 381px;
+}
+.sliderimg51{
+width: 22%;
+height: 381px;
+}
+@media (max-width: 760px) {
+    .Slider_Component1{
+        /* display:flex; */
+        justify-content: center;
+        width: 100%;
+        padding: 10px 20px;
+    }
+}
+.Follow_us{
+font-size: 40px;
+width:100%;
+text-align: center;
+}
+.Btn-follow{
+width: 370px;
+height: 76px;
+background: #D9D9D9;
+border-radius: 20px;
+
+}
+/* Follow Us */
+.followText{
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+text-transform: uppercase;
+font-feature-settings: 'case' on, 'cpsp' on;
+
+color: #000000;
+font-variation-settings: 'slnt' -6;
+}
+.icon{
+    display: flex;
+}
+.SocialIconBox{
+    justify-content: center;
+    display: flex;
+    padding: 40px;
+}
+.Icon{
+     display: flex;
+}
+.Line-1{
+position: absolute;
+width: 1362px;
+height: 0px;
+left: 16px;
+top: 5450px;
+
+border: 1px solid #555555;
+}
+.Footer{
+width: 100%;
+}
+
+.footer_box{
+width: 100%;
+background: #FFFFFF;
+display:flex;
+}
+
+/* SUBSCRIBE TO GET NEWS AND UPDATES TO YOUR INBOX EVERY WEEK */
+.SubText{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 30px;
+line-height: 27px;
+width:55%;
+color: #555555;
+
+}
+
+/* Email Button */
+#email{
+position: absolute;
+font-size: 30px;
+background-color: antiquewhite;
+
+}
+.Button_SignUp{
+    width: 100%;
+    position:absolute;
+    left:70%;
+    }
+    
+    .SignUpBox{
+    background: rgba(0, 0, 0, 0.25);
+    filter: blur(1px);
+    
+    }
+    /* Discover all */
+    .SignUpText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+    }
+
+    .PageInfo{
+        width: 100%;
+        background-color: #FFFFFF;
+        display:flex;
+        font-size:20px;
+    }
+.Info{
+    width:30%;
+}
+.Info1{
+    position: relative;
+    width:30%;
+}
+.About{
+    width: 30%;
+}
+.Products{
+    /* background-color: #888; */
+    padding: 5px;
+}
+.ProductText{
+
+}
+.ProductsBox{
+    /* background-color: #555555; */
+    width:100%;
+}
+@media (min-width: 760px) {
+    .Productsrow{
+        display:flex;
+        justify-content: center;
+    }
+
+    /* .ProductUpperBox{
+        height: 900px;
+    } */
+}
+.Productsrow{
+    width:100%;
+    margin-bottom: 20px;
+    /* display:flex; */
+    justify-content: space-around;
+}
+.Product{
+    width: 30%;
+    /* background-color: #F70C0C; */
+    margin:10px;
+}
+.ProductUpperBox{
+    position:relative;
+    width:100%;
+    height: 900px;
+    box-shadow: 8px 4px 8px 2px #F4ECE7;
+    border-radius: 20px;
+    transform: rotate(0deg);
+    overflow:hidden;
+    /* background-color: #bacc19; */
+    
+}
+.ProductInfo{
+    position: absolute;
+    top:20px;
+    left:20px;
+    font-size: 23px;
+}
+.ProductImg{
+    width:100%;
+    /* max-height: 100%; */
+    border-radius:5%;
+}
+.ProductLogo{
+    position:absolute;
+    bottom:10px;
+    right:20px;
+}
+.ProductLowerBox{
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+}
+.cartBox{
+
+    padding: 20px 20px;
+    margin: 20px 0px;
+
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+            padding-left:-40px;
+            float: right;
+        }
+        #div1{
+                border: 5px solid black;
+                width: 1000px;
+                margin-left:900px;
+                height: 1370px;
+                padding-right: 20px;
+                padding-left: 20px;
+    
+            }
+            #div2{
+                background-color:whitesmoke;
+                margin: 0px;
+                padding: 0px;
+                height: 200px;
+            }  
+            *{
+                padding :0;
+                margin: 0;
+                text-decoration: none;
+                list-style: none;
+                box-sizing: border-box;
+            } 
+        input[type="radio"] {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            width: 16px;
+            height: 16px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            outline: none;
+        }
+
+        
+        input[type="radio"]:checked {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        input[type="radio"]:checked ~ input[type="radio"] {
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+        
+      </style>
+</head>
+<body style="font-family: montserrat;">
+    <div id="div1">
+        <div id="div2">
+            <header>
+                <h1 style="background-color: white; ">U.S. Standard Certificate of Live Birth</h1>
+            </header>
+            <section>
+                <nav style="background-color: white;height:100px; width:103%;">
+                    <ul style="float: right; margin-right: 20px;">
+                    <li style="display: inline-block; line-height: 80px;margin:5px;"><a href="#">Home</a></li>
+                    <li style="display: inline-block; line-height: 80px;margin:5px;"><a href="#">Information for Administrative Use</a></li>
+                    <li style="display: inline-block; line-height: 80px;margin:5px;"><a href="#">Information for Medical and Health Purpose only</a></li>
+                    <li style="display: inline-block; line-height: 80px;margin:5px;"><a href="#">Mother Details</a></li>
+                    <li style="display: inline-block; line-height: 80px;margin:5px;"><a href="#">Medical and Health Information</a></li>
+
+                    </ul>
+                </nav>
+                <hr>
+                <article>
+                    <div id="div3" style="background-color: antiquewhite;height: 1230px;">
+                        <aside style="float: right;">
+                            <h2>Mother's Details</h2><br>
+                            <p> MOTHER'S CURRENT LEGAL NAME</p><br>
+                            <form action="thanks.html">
+                                
+                                <label for="firstname"  >First Name</label><br>
+                                <input type="text" id="firstname" name="fname" placeholder="First Name"><br>
+                                
+                                <label for="middlename" >Middle Name</label><br>
+                                <input type="text" id="middlename" name="mname" placeholder="Middle Name" ><br>
+                                
+                                <label for="lastname">Last Name</label><br>
+                                <input type="text" id="lastname" name="lname" placeholder="Last Name"><br>
+                                
+                                
+                                <label for="suffix">Suffix</label><br>
+                                <input type="number" id="suffix" name="suffix" placeholder="Suffix"><br>
+                                <label for="date">Date of Birth(Mo/Day/Yr)</label><br>
+                                <input  type="date" id="date" name="date" min="1950-01-01" max="2023-12-01"><br><br><br>
+                                <p> Mother's Name Prior to First marriage</p><br>
+                                <label for="firstname"  >First Name</label><br>
+                                <input type="text" id="firstname" name="fname" placeholder="First Name"><br>
+                                
+                                <label for="middlename" >Middle Name</label><br>
+                                <input type="text" id="middlename" name="mname" placeholder="Middle Name" ><br>
+                                
+                                <label for="lastname">Last Name</label><br>
+                                <input type="text" id="lastname" name="lname" placeholder="Last Name"><br>
+                                
+                                
+                                <label for="suffix">Suffix</label><br>
+                                <input type="number" id="suffix" name="suffix" placeholder="Suffix"><br>
+                                
+                        <label for="place">Birthplace(State,Territory or Foreign Country)</label><br>
+                        <input type="text" id="place" name="place"><br>
+                        <label for="res">Residence of Mother-State</label><br>
+                        <input type="text" id="res" name="res"><br>
+                        <label for="co">Country</label><br>
+                        
+                        <input type="text" id="co" name="co" ><br>
+                        <label for="area">City,Town or Location</label><br>
+                        <input type="text" id="area" name="area"><br>
+                        <label for="num">Street and Number</label><br>
+                        <input type="text" id="num" name="num"><br>
+                        <label for="apart">Apartment No.</label><br>
+                        <input type="number" id="apart" name="apart" min="1" max="1000"><br>
+                        <label for="zip">Zip Code</label><br>
+                        
+                        <input type="number" id="zip" name="zip" >
+                        <aside style="float: right;margin-bottom: 50px;">
+                            <label for="in">Inside City Limits?</label><br>
+                            <input type="radio" id="y" name="y">
+                            <label for="y">Yes</label>
+                            <input type="radio" id="n" name="n">
+                            <label for="n">No</label><br>
+  
+                        </aside>
+                        
+                        
+                        
+                            </aside>
+                            
+
+                                </div>
+                                </div>
+                        </aside>
+                        <h2 style="margin-top: -50px;margin-right: 40px;">Child's Details</h2><br>
+                    <form action="thanks.html" >
+                        <div class="fields" style="display: flex;align-items:center; justify-content:space-between; flex-wrap:wrap; ">
+                            <div class="input-field" style="display:flex; width: calc(100%/3-15px);flex-direction: column; margin:4px 0">
+                                <label for="firstname"  >First Name</label><br>
+                                <input type="text" id="firstname" name="fname" placeholder="First Name"><br>
+                                
+                                <label for="middlename" >Middle Name</label><br>
+                                <input type="text" id="middlename" name="mname" placeholder="Middle Name" ><br>
+                                
+                                <label for="lastname">Last Name</label><br>
+                                <input type="text" id="lastname" name="lname" placeholder="Last Name"><br>
+                                
+                                
+                                <label for="suffix">Suffix</label><br>
+                                <input type="number" id="suffix" name="suffix" placeholder="Suffix"><br>
+                        </div>
+                        </div>
+                        
+                        <label for="appt">Time of Birth(24hr)</label><br>
+                        <input type="time" id="appt" name="appt"><br>
+                        <label for="gender">Sex</label><br>
+                        <select id="gender">
+                            <option value="gender">Male</option>
+                            <option value="gender">Female</option>
+                            <option value="gender">Other</option>
+                        </select><br>
+                        <label for="date">Date of Birth(Mo/Day/Yr)</label><br>
+                        <input type="date" id="date" name="date" min="1950-01-01" max="2023-12-01"><br>
+                        <label for="facility">Facility Name(if not institution, give street and number)</label><br>
+                        <input type="text" id="facility" name="facility" style="width:370px;"><br>
+                        <label for="area">City,Town or Location of Birth</label><br>
+                        <input type="text" id="area" name="area" placeholder="City,Town or Location" style="width:250px;"><br>
+                        
+                        <label for="cbirth">Country of Birth</label><br>
+                        <input type="text" id="cbirth" name="cbirth"><br>
+
+                    </form>
+                    
+                    <h2>Father's Details</h2><br>
+                    <p> FATHER'S CURRENT LEGAL NAME</p><br>
+
+
+                    <form action="thanks.html" method="post">
+                        <label for="firstname"  >First Name</label><br>
+                                <input type="text" id="firstname" name="fname" placeholder="First Name"><br>
+                                
+                                <label for="middlename" >Middle Name</label><br>
+                                <input type="text" id="middlename" name="mname" placeholder="Middle Name" ><br>
+                                
+                                <label for="lastname">Last Name</label><br>
+                                <input type="text" id="lastname" name="lname" placeholder="Last Name"><br>
+                                
+                                
+                                <label for="suffix">Suffix</label><br>
+                                <input type="text" id="suffix" name="suffix" placeholder="Suffix"><br>
+                        <label for="date">Date of Birth(Mo/Day/Yr)</label><br>
+                        <input type="date" id="date" name="date" min="1950-01-01" max="2023-12-01"><br>
+                        <label for="place">Birthplace(State,Territory or Foreign Country)</label><br>
+                        <input type="place" id="place" name="place"><br>
+                        </form><br>
+
+                        <h2>Certifier Details</h2><br>
+                        <form action="thanks.html">
+                        <label for="cname">Certifier's Name</label><br>
+                        <input type="text" id="cname" name="cname" placeholder="Name"><br>
+                        <label for="tname">Title</label><br>
+                        <input type="radio" id="md" name="md">
+                        <label for="md"> MD</label>
+                        <input type="radio" id="do" name="do">
+                        <label for="do"> DO</label>
+                        <input type="radio" id="ha" name="ha">
+                        <label for="ha"> HOSPITAL ADMIN</label>
+                        <input type="radio" id="c" name="c">
+                        <label for="c"> CNM/CM</label>
+                        <input type="radio" id="mdw" name="mdw">
+                        <label for="mdw"> OTHER MIDWIFE</label><br>
+                        <input type="radio" id="ot" name="ot">
+                        <label for="ot"> OTHER(Specify)</label><br><br>
+                        <input type="text" id="tname" name="tname"><br><br>
+                        <label for="Ddate">Date Certified(Mo/Day/Yr)</label><br>
+                        <input type="date" id="Ddate" name="Ddate" min="1950-01-01" max="2023-12-01"><br>
+        
+                        <label for="Rdate">Date Field by Register(Mo/Day/Yr)</label><br>
+                        <input type="date" id="Rdate" name="Rdate" min="1950-01-01" max="2023-12-01"><br>
+                        <label for="tel">Telephone</label><br>
+                        <input type="tel" id="tel" name="tel" pattern="[0-9]{10,12}" placeholder="+880**********" required><br>
+                        <label for="ur">UR#</label><br>
+                        <input type="url" id="ur" name="ur"><br>
+                        <label for="rh">Referring Hospital</label><br>
+                        <input type="text" id="rh" name="rh"><br>
+                        
+                        
+
+  
+                    </div>
+                    
+                </article>
+                
+            </section>
+            
+
+    
+
+    
+</body>
+</html>

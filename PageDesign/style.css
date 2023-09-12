@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+/*resets*/
+*{
+    margin:0;padding:0;
+    box-sizing: border-box;
+    font-family:'Arial,Helvetica, sans-serif';
+    text-transform: capitalize;
+    text-decoration:none;
+
+}
+
+body{
+    font-size: 100%;
+    line-height: 1.42;
+    color: #333;
+    
+
+}
+h1{
+    font-size: 3rem;
+    color: white;
+}
+h2{
+    font-size:2rem;
+}
+p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+a{
+    text-decoration:none;
+    display: inline-block;
+    color:#333;
+    background: transparent;
+}
+/* utility classes*/
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+   
+    margin:0 50px 0 50px;
+
+}
+#header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background: #E8EBF1;
+    box-shadow: 0 1px 10px rgba(0,0,0,1);
+    
+    display:flex;
+    align-items: center; 
+    justify-content: space-between;
+    z-index:1000;
+    border-bottom:4px solid #CFCFD5;
+    padding:0 40px 0 60px;
+    
+    
+}
+#header .logo{
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-right: 50px;
+
+
+}
+#navbar ul{
+    list-style: none;
+}
+#navbar ul li{
+    position: relative;
+    float: left;
+
+}
+#navbar ul li a{
+    font-size: 10px;
+    padding: 20px;
+    color:#333;
+    display:block;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.8em;
+    font-weight: 700;
+    margin-left:20px;
+
+}
+#navbar ul li a:hover{
+    background: #fff;
+    color: #0fdaed;
+}
+#navbar ul li ul{
+    position: absolute;
+    left:0;
+    width: 200px;
+    background:#fff;
+    display: none;
+}
+#navbar ul li ul li{
+    width:100%;
+    border-top: 2px solid rgba(0,0,0,1);
+}
+#navbar ul li:focus-within >ul,
+#navbar ul li:hover >ul{
+    display:initial;
+}
+
+.main{
+    padding:1em 0;
+    background: #81e4ed;
+}
+.slider-wrapper{
+ 
+    background-size: cover;
+    background-position: center;
+    min-height: 50px;
+    margin-inline: 150px;
+    margin-top:70px;
+
+}
+.flexslider{
+    border: 30px;
+    position:relative;
+    
+}
+.flexslider.slides{
+    margin:20px 50px 10px 50px;
+    padding: 0 60px 0 70px;
+    list-style:none;
+}
+
+.Read{
+    padding:3em 0;
+    background: #e8ebf1;
+}
+.feature-grid{
+    margin-bottom: 1em;
+    position:relative;
+    min-height:1px;
+    padding-right:15px;
+    padding-left:15px;
+}
+.feature-grid h3 span{
+    width:50px;
+    height:50px;
+    display:inline-block;
+    background: url(https://p.w3layouts.com/demos/bislite/web/images/img-sprite.png) no-repeat -7px -6px;
+    vertical-align: middle;
+    margin-right: 0.5em;
+}
+.arrow_btn{
+    display: block;
+    background: url(https://p.w3layouts.com/demos/bislite/web/images/left-arrow.png) no-repeat -3px 9px;
+    padding: 9px 30px 10px 17px;
+    color:#262525;
+    font-size: 14px;
+    font-family:'Lato',sans-serif;
+}
+
+
+.feature-grid h3{
+    color:#000;
+    font-size:0.85em;
+    font-weight:700;
+    text-transform: uppercase;
+}
+.features{
+    padding-top: 1em;
+}
+.works{
+    border-botton: 2px solid #CACACB;
+}
+
+.works h3 span{
+    width: 50px;
+    height:50px;
+    display: inline-block;
+    background: url(https://p.w3layouts.com/demos/bislite/web/images/img-sprite.png) no-repeat;
+    vertical-align: middle;
+    margin-right: 0.4em;
+}
+
+#carousel_wrapper{
+    border-top:1px solid #dfe1e5;
+    border-bottom: 2px solid #dfe1e5;
+    height: 200px;
+    display: inline-block;
+    margin: 0 50px;
+}
+#carousel_wrapper li{
+    float: left;
+    margin: 30px 15px;
+}
+
+img{
+    vertical-align: middle;
+    border:0;
+}
+#bottom_content{
+    margin:auto;
+    width:1000px;
+}
+#testimonials{
+    clear:left;
+    float:left;
+    width:430px;
+}
+#testimonials h3{
+    
+    height:25px;
+    display: inline-block;
+    background: url(https://www.graphicsfuel.com/wp-content/uploads/2013/01/BisLite/images/speechcloud_icon.png) no-repeat left;
+    font-size:15px;
+    font-weight:bold;
+    margin:19px 0 15px 0;
+    padding:5px 0 0 38px;
+
+
+}
+#testimonials p{
+    color:#363636;
+    font-size: 14px;
+    line-height: 24px;
+}
+#clients{
+    float:right;
+    margin-bottom:40px;
+}
+#clients h3{
+    background: url(https://www.graphicsfuel.com/wp-content/uploads/2013/01/BisLite/images/people_icon.png) no-repeat left;
+    font-size:15px;
+    font-weight:bold;
+    height:16px;
+    margin:19px 0 15px 0;
+    padding: 4px 0 0 38px;
+}
+#clients ul{
+    
+    height: 200px;
+    width: 480px;
+}
+#clients img{
+    float:left;
+    margin:0;
+}
+li{
+    display:list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+}
+
+#download{
+    background: #e8fcfe;
+    border: 1px solid #81e4ed;
+    clear:both;
+    height:140px;
+    padding: 30px 30px;
+    width:1000px;
+    margin: 0 auto;
+
+}
+#download p{
+    color:#363636;
+    float: left;
+    font-size: 16px;
+    line-height: 26px;
+    width: 608px;
+}
+#download a{
+    background: url(https://www.graphicsfuel.com/wp-content/uploads/2013/01/BisLite/images/download_button.png)no-repeat;
+    display:block;
+    color:#0d0707;
+    font-size:18px;
+    font-weight:bold;
+    float:right;
+    height:100px;
+    margin:10px 10px 0 0;
+    padding: 22px 0 0 72px;
+    width:250px;
+}
+
+#footer{
+    background:#e8ebf1;
+    border-top:1px solid #d9d9d9;
+    clear: both;
+    height:400px;
+    margin-top:40px;
+}
+#footer_about{
+    width: 238px;
+    margin-right:64px;
+}
+#footer_info{
+    float:left;
+    margin: 32px 0 40px 0;
+}
+#footer_about p{
+    line-height:17px;
+}
+#footer p{
+    color:#363636;
+    font-size:15px;
+    width: 150px;
+}
+#footer_explore{
+    margin-right:64px;
+}
+#footer_explore li{
+    margin:12px 0;
+}
+#footer_browse{
+    margin-right:64px;
+}
+#footer h4{
+    font-size:15px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin:0 0 21px 0;
+}
+#footer_contact p{
+    line-height:17px;
+}
+.bold_text{
+    font-weight:bold;
+}
+#footer_connect{
+    float:right;
+    width:213px;
+}
+#footer_connect h4{
+    margin-left:24px;
+}
+#footer h4{
+    font-size:15px;
+    font-weight: bold;
+    text-transform:uppercase;
+    margin:0 0 21px 0;
+}
+#footer_connect a{
+    display:block;
+    float: left;
+    height:51px;
+    margin:0 0 10px 18px;
+    text-indent:-9999px;
+    width:53px;
+}
+#facebook{
+    background: url(https://www.graphicsfuel.com/wp-content/uploads/2013/01/BisLite/images/facebook_icon.png) no-repeat;
+}
+#dribbble{
+    background: url(https://www.graphicsfuel.com/wp-content/uploads/2013/01/BisLite/images/dribbble_icon.png) no-repeat;
+}
+#pinterest{
+    background: url(https://www.graphicsfuel.com/wp-content/uploads/2013/01/BisLite/images/pinterest_icon.png) no-repeat;
+}
+#linkedin{
+    background: url(https://www.graphicsfuel.com/wp-content/uploads/2013/01/BisLite/images/linkedin_icon.png) no-repeat;
+}
+#skype{
+    background: url(https://www.graphicsfuel.com/wp-content/uploads/2013/01/BisLite/images/skype_icon.png) no-repeat;
+}
+#sharethis{
+    background: url(https://www.graphicsfuel.com/wp-content/uploads/2013/01/BisLite/images/sharethis_icon.png) no-repeat;
+}
+p#copyright{
+    
+    float:left;
+    font-size: 14px;
+    margin: 0 50px 0 50px;
+    width: 800px;
+}
